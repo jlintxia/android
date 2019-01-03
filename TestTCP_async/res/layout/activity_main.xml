@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/sync_org"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同步机构tcp" />
+
+        <Button
+            android:id="@+id/que_regoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="区域查询http" />
+
+        <Button
+            android:id="@+id/sub_deposit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="押金信息上送http" />
+
+        <Button
+            android:id="@+id/sub_deposit_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="押金信息上送退款http" />
+
+        <Button
+            android:id="@+id/que_deposit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询订单支付结果http" />
+
+        <Button
+            android:id="@+id/register_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户注册tcp" />
+
+        <Button
+            android:id="@+id/sync_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同步用户信息tcp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />
+        <!--  -->
+
+        <Button
+            android:id="@+id/equ_regist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备注册http" />
+
+        <Button
+            android:id="@+id/sync_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同步时间http" />
+
+        <Button
+            android:id="@+id/que_userinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询用户信息tcp" />
+
+        <Button
+            android:id="@+id/init_cabinet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="初始化货柜tcp" />
+
+        <Button
+            android:id="@+id/init_aisle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="初始化货道tcp" />
+
+        <Button
+            android:id="@+id/que_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询用户信息tcp" />
+
+        <Button
+            android:id="@+id/que_equ_para"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备参数查询tcp" />
+
+        <Button
+            android:id="@+id/que_edition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询版本号tcp" />
+
+        <Button
+            android:id="@+id/que_stuborrowrecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="根据学生查询借书记录接口tcp" />
+
+        <Button
+            android:id="@+id/sysn_equ_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备信息同步tcp" />
+
+        <Button
+            android:id="@+id/get_equ_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备信息查询tcp" />
+
+        <Button
+            android:id="@+id/que_ink_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询墨水屏信息tcp" />
+
+        <Button
+            android:id="@+id/ink_updown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="墨水屏上下架tcp" />
+
+        <Button
+            android:id="@+id/padbookaisleinst_operate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备墨水屏信息操作接口tcp" />
+
+        <Button
+            android:id="@+id/get_screensaver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取屏保tcp" />
+
+        <Button
+            android:id="@+id/borrow_ink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="墨水屏借阅tcp" />
+
+        <Button
+            android:id="@+id/return_ink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="墨水屏归还tcp" />
+
+        <Button
+            android:id="@+id/sysn_screen" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取屏保" />
+    </LinearLayout>
+
+</LinearLayout>
